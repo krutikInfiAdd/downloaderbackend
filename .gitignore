@@ -1,0 +1,58 @@
+# 🔹 Node modules
+node_modules/
+**/node_modules/
+
+# 🔹 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔹 Environment files
+.env
+.env.*
+!.env.example
+
+# 🔹 Build output
+dist/
+build/
+out/
+
+# 🔹 Vite cache
+.vite/
+
+# 🔹 Next.js / React
+.next/
+coverage/
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# 🔹 Temporary files
+tmp/
+temp/
+
+# 🔹 Lock files (optional)
+# Uncomment if you don't want lock files
+# package-lock.json
+# yarn.lock
+
+# 🔹 Backend specific
+backend/node_modules/
+backend/.env
+
+# 🔹 Frontend specific
+frontend/node_modules/
+frontend/dist/
+
+# 🔹 Debug
+*.pid
+*.seed
+*.pid.lock
