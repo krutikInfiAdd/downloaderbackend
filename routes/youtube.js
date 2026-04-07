@@ -1,11 +1,11 @@
 const express = require("express");
-const { ytdl } = require("ab-downloader");
+const { youtube } = require("ab-downloader");
 
 const router = express.Router();
 
 router.get("/", async (req, res) => {
     try {
-        const data = await ytdl(req.query.url);
+        const data = await youtube(req.query.url);
         res.json({ success: true, data });
     } catch {
         res.json({ success: false });
