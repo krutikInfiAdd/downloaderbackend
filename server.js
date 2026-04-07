@@ -14,7 +14,7 @@ app.use("/mediafire", require("./routes/mediafire"));
 app.use("/capcut", require("./routes/capcut"));
 app.use("/drive", require("./routes/drive"));
 app.use("/pinterest", require("./routes/pinterest"));
-
+app.use("/download", require("./routes/download"));
 // Home
 app.get("/", (req, res) => {
     res.json({
